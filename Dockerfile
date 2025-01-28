@@ -14,7 +14,7 @@ RUN yarn install
 COPY . .
 
 # Expose the port (React runs on port 3000 by default)
-EXPOSE 3000
+EXPOSE 7775
 
 # Start the React application
 CMD ["yarn", "start"]
